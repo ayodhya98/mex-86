@@ -7,5 +7,6 @@ namespace DAL.Model
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public int ContactNo { get; set; }
+        
     }
 }

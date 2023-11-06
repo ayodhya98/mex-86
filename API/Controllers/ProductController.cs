@@ -4,7 +4,7 @@ using DLL.Services;
 using DLL.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+
 
 namespace API.Controllers
 
@@ -25,9 +25,6 @@ namespace API.Controllers
             _authService = authService;
             
         }
-
-
-
 
         [HttpGet]
         public async Task<ActionResult<List<ProductDto>>> GetAllProducts()
@@ -129,7 +126,6 @@ namespace API.Controllers
     }
 }
 
-    
-
+//AuthorizeAttribute done
 
 
